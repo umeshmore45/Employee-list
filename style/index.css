@@ -1,0 +1,40 @@
+body {
+  max-width: 100%;
+  background-color: #0000001a;
+}
+
+h1 {
+  text-align: center;
+}
+
+#root {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.trainee-content {
+  height: 25vh;
+  width: 13vw;
+  background-color: #00000033;
+  margin: 5%;
+  text-align: center;
+  border: 0px;
+  box-shadow: 5px 10px #0000001a;
+}
+
+.trainee-name {
+  display: inline-block;
+}
+
+.trainee-realpic {
+  height: 10vh;
+  width: 5vw;
+  border-radius: 50px;
+  margin: 3%;
+}
+
+.trainee-link {
+  text-decoration: none;
+  color: black;
+}
